@@ -1,6 +1,7 @@
 
 body {
-  background-image: url("surce/IMG/unsplash.jpg");
+  background-image: url(surce/IMG/unsplash.jpg);
+  background-size:cover;
 }
 
 nav {
