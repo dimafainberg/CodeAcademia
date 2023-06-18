@@ -1,0 +1,187 @@
+nav {
+  margin-top: 20px;
+  position: fixed;
+  text-align: right;
+}
+nav a {
+  background-color: beige;
+  padding: 5px 2%;
+  border-radius: 3px;
+  margin-right: 10px;
+  border: 1px solid;
+  color: #706262;
+  text-decoration: none;
+}
+nav a:hover {
+  box-shadow: 1px 1px #504a4a;
+  cursor: pointer;
+}
+nav a:active {
+  background-color: #a28f8f;
+}
+body {
+  background-image: url(/surce/IMG/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+}
+
+.RobotImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Conception {
+  position: absolute;
+  text-align: center;
+  color: rgb(118, 116, 113);
+  font-size: 150%;
+  text-shadow: 2px 2px 3px rgb(184, 154, 159);
+}
+.breadcrumb > li {
+  display: inline;
+}
+.breadcrumb li.location + li.location::before {
+  content: "/";
+}
+li a {
+  color: #000000;
+}
+@media only screen and (max-width: 600px) {
+  .RobotAdds img {
+    max-height: 200px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 60%;
+  }
+  nav {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .RobotAdds img {
+    max-height: 200px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 60%;
+  }
+  nav {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .RobotAdds img {
+    max-height: 270px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 70%;
+  }
+  nav {
+    width: 750px;
+  }
+}
+@media only screen and (min-width: 958px) {
+  .RobotAdds img {
+    max-height: 380px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 80%;
+  }
+  nav {
+    width: 950px;
+  }
+}
+
+@media only screen and (min-width: 1128px) {
+  .RobotAdds img {
+    max-height: 450px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 90%;
+  }
+  nav {
+    width: 1120px;
+  }
+}
+
+@media only screen and (min-width: 1365px) {
+  .RobotAdds img {
+    max-height: 550px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 100%;
+  }
+  nav {
+    width: 1360px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .RobotAdds img {
+    max-height: 650px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 150%;
+  }
+  nav {
+    width: 1650px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .RobotAdds img {
+    max-height: 700px;
+    max-width: auto;
+    display: block;
+    margin-left: 12%;
+    opacity: 0.8;
+  }
+  .Conception {
+    top: 30%;
+    left: 20%;
+    font-size: 150%;
+  }
+  nav {
+    width: 2000px;
+  }
+}
