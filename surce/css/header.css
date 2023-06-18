@@ -20,7 +20,7 @@ nav a:active {
   background-color: #a28f8f;
 }
 body {
-  background-image: url(surce/IMG/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+  background-image: url("surce/IMG/drew-beamer-kUHfMW8awpE-unsplash.jpg");
 }
 
 .RobotImg {
