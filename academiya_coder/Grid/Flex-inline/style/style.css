@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+.contener {
+  background-color: bisque;
+  width: 602px;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-flex;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+h3 {
+  text-align: center;
+  display: block;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}

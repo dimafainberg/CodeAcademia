@@ -1,0 +1,33 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.top,
+.center,
+.bottom {
+  width: auto;
+  background-color: beige;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#left,
+#center,
+#right {
+  width: 70px;
+  height: 70px;
+  background-color: aqua;
+  border: 1px solid rgb(13, 13, 13);
+}
+h1,
+h2 {
+  text-align: center;
+}
+.top #left {
+  flex-grow: 1;
+}
+#left {
+  padding-left: 20%;
+}

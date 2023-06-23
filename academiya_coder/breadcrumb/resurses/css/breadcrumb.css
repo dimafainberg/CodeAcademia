@@ -1,0 +1,22 @@
+.breadcrumb > li {
+  display: inline;
+}
+.breadcrumb li.location + li.location::before {
+  content: ">";
+}
+.breadcrumb > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.breadcrumb li.attribute::after {
+  content: "x";
+  color: red;
+  font-size: 10px;
+  vertical-align: super;
+}
+.breadcrumb li.attribute {
+  color: #fffaf0;
+  background: #a9a9a9;
+  border-radius: 3px;
+  padding: 0px 4px;
+}

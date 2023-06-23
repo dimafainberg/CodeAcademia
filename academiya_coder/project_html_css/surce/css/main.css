@@ -1,0 +1,44 @@
+.japan p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Korea p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+main {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.japan img {
+  height: 200px;
+  width: auto;
+  display: block;
+}
+.Korea img {
+  height: 200px;
+  width: auto;
+  display: block;
+}
+footer p {
+  display: block;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.def p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+footer h3 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: darkblue;
+}

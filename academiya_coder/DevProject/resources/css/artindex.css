@@ -1,0 +1,30 @@
+.Htext {
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*wa5dax*_ga*NDk4ODIzODQ2Mi4xNjgzNTU0NDc5*_ga_3LRZM6TM9L*MTY4NTI2MDg0MC4yNi4xLjE2ODUyNjQyOTIuNjAuMC4w)
+    no-repeat top center;
+  text-align: center;
+  font-size: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: khaki;
+}
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.e {
+  background-color: mediumspringgreen;
+}
+.f {
+  background-color: rgb(204, 92, 152);
+}
+.c {
+  background-color: rgb(91, 203, 203);
+}
+.p {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+  display: inline;
+}

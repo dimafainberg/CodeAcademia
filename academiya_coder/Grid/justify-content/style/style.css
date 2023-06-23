@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.contener {
+  height: 150px;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+}
+.box {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+#FlexStart {
+  justify-content: flex-start;
+}
+#FlexEnd {
+  justify-content: flex-end;
+}
+#FlexCenter {
+  justify-content: center;
+}
+#SpaceAround {
+  justify-content: space-around;
+}
+#SpaceBetween {
+  justify-content: space-between;
+}
