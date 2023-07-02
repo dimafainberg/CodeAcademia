@@ -1,0 +1,39 @@
+.contener {
+  display: flex;
+  height: 300px;
+  width: 600px;
+  margin: auto;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  margin: 18px;
+}
+.left,
+.center,
+.right {
+  min-height: 75px;
+  width: 200px;
+  background-color: blue;
+  border: 2px solid #0f0f0f;
+  margin: 5px;
+}
+#Flexstart {
+  align-content: flex-start;
+}
+#Flexend {
+  align-content: flex-end;
+}
+#center {
+  align-content: center;
+}
+#Spacebetween {
+  align-content: space-around;
+}
+#Spacearound {
+  align-content: space-between;
+}
+#Stretch {
+  align-content: stretch;
+}

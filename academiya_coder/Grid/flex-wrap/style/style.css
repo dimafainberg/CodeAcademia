@@ -1,0 +1,29 @@
+.contener {
+  display: flex;
+  background-color: rgb(37, 37, 219);
+  min-height: 200px;
+  justify-content: space-around;
+  border: 2px solid black;
+  align-items: center;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+}
+h2,
+h3 {
+  text-align: center;
+}
+h3 {
+  padding-top: 50px;
+}
+#wrap {
+  flex-wrap: wrap;
+}
+#nowrap {
+  flex-wrap: nowrap;
+}
+#wrapreverse {
+  flex-wrap: wrap-reverse;
+}

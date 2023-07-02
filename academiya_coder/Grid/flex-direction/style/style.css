@@ -1,0 +1,30 @@
+h2,
+h1 {
+  text-align: center;
+}
+.contener {
+  display: flex;
+  background-color: blue;
+  max-height: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  height: 120px;
+  width: 120px;
+  background-color: aliceblue;
+  border: 2px solid #675f5f;
+  flex-grow: 1;
+}
+#Row {
+  flex-direction: row;
+}
+#Row-Reverse {
+  flex-direction: row-reverse;
+}
+#Column {
+  flex-direction: column;
+}
+#Column-Reverse {
+  flex-direction: column-reverse;
+}
